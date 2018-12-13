@@ -1,69 +1,106 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="de">
   <head>
+  
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-      
-    <!--  Dokumentkompatibilitätsmodus für IE-->  
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <title>daniel-amade.us</title>
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/favicon.ico">
-
-    <title>Meine erste eigene Website</title>
-
-    <!-- Bootstrap Haupt-CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Bootstrap Theme-CSS -->
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
-      
-    <!-- Eigenes CSS -->  
-    <link href="css/style.css" rel="stylesheet">
+  
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+  
+    <!-- Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/icon.png">
+  
   </head>
-
   <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        
+  
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+    <div class="section hero">
       <div class="container">
-          
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <!-- screen reader haben Probleme, wenn nicht jede Eingabe ein Label hat -->
-            <span class="sr-only">Navigation ein/ausblenden</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Mein Blog</a>
+        <div class="row">
+          <div class="one-half column">
+            <h4 class="hero-heading">Hier ein Bild von meinem Smartphone. <span class="once-or-twice"></span>. Weil, warum nicht?</h4>
+            <a class="button button-primary" href="http://lmgtfy.com/?iie=1&q=the+smartphone+from+this+guys+website">Jetzt kaufen</a>
+          </div>
+          <div class="one-half column phones">
+            <img class="phone" src="images/phone.png">
+            <img class="phone" src="images/phone.png">
+          </div>
         </div>
-          
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Startseite</a></li>
-            <li><a href="ueber-mich.html">Über mich</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-
       </div>
-    </nav>
-
-    <div class="container">
-
-      <div class="inhalt">
-        <h1>Mein erster Blog</h1>
-        <p class="lead">Hier kommen dann alle Inhalte der Blog-Startseite hinein.</p>
+    </div>
+  
+    <div class="section values">
+      <div class="container">
+        <div class="row">
+          <div class="one-third column value">
+            <h2 class="value-multiplier">67%</h2>
+            <h5 class="value-heading">Nutzeranteil</h5>
+            <p class="value-description">Anteil der Nutzer, der 67% der Nutzer ausmacht.</p>
+          </div>
+          <div class="one-third column value">
+            <h2 class="value-multiplier">14%</h2>
+            <h5 class="value-heading">Montag</h5>
+            <p class="value-description">Anteil der Wochentage, die ein Montag sind.</p>
+          </div>
+          <div class="one-third column value">
+            <h2 class="value-multiplier">0%</h2>
+            <h5 class="value-heading">Verschwendete Zeit</h5>
+            <p class="value-description">Zeit ist nur verschwendet, wenn du sie nie verschwendest.</p>
+          </div>
+        </div>
       </div>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap Haupt-JavaScript -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+    </div>
+  
+    <div class="section get-help">
+      <div class="container">
+        <h3 class="section-heading">Was diese Seite hier soll?</h3>
+        <p class="section-description">Ich hab gesehen, dass diese Domain noch frei ist und hab sie mir gekauft. Wenn du mehr darüber erfahren willst, weiß ich nicht, was ich noch dazu sagen soll.</p>
+        <a class="button button-primary" href="http://daniel-amade.us">Sieh dir die Webseite an</a>
+      </div>
+    </div>
+  
+    <div class="section categories">
+      <div class="container">
+        <h3 class="section-heading">Tolle Bilder</h3>
+        <p class="section-description">Guck mal, ich kann sogar Bilder hier einfügen:</p>
+        <div class="row">
+          <div class="one-half column category">
+            <img class="u-max-full-width" src="images/image1.jpg">
+          </div>
+          <div class="one-half column category">
+            <img class="u-max-full-width" src="images/image2.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   </body>
-</html>     
+  </html>
